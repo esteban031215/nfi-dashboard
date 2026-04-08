@@ -73,7 +73,7 @@ try:
         kd = data["KPI Dashboard"]
         forklifts = safe_int(kd.iloc[7, 1])
         inbound = safe_int(kd.iloc[5, 1])
-        total_moves = safe_int(kd.iloc[7, 1])
+        total_moves = safe_int(kd.iloc[6, 1])
 
     # Outbond loading - Dock Doors
     if "Outbond loading" in data:
